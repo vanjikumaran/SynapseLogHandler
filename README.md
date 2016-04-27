@@ -7,6 +7,8 @@ Which allows to calculate the latency caused by the mediation engine in the give
 
 # Engaging the SynapseLogHandler
 To engage the deployed Synapse handler, you need to add the following configuration to the <ESB_HOME>/repository/conf/synapse-handlers.xml file.
+```xml
 <handlers>
     <handler name="CustomSynapseHandler" class="org.wso2.carbon.test.gateway.CustomSynapseHandler"/>
 </handlers>
+```
